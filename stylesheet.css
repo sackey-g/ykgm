@@ -1,0 +1,77 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background: rgb(225, 230, 240);
+}
+
+.title {
+    animation: spin 1.5s linear infinite;
+    margin: 30px 20px;
+    padding: 5px;
+    transform-origin: 45px 15px;
+    font-size: 30px;
+    color: white;
+    display: inline-block;
+    background: cornflowerblue;
+    margin-bottom: 50px;
+}
+
+@keyframes spin {
+	0% {transform: rotate(0deg);}
+	100% {transform: rotate(360deg);}
+}
+
+p {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.3px;
+    line-height: 35px;
+}
+
+main {
+    margin-left: 20px;
+}
+
+.gyo {
+    position: relative;
+    display: inline-block;
+    padding: 0 45px;
+    margin: 30px 0px;
+    font-size: 25px;
+  }
+  .gyo:before, .gyo:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    width: 44px;
+    height: 2px;
+    background-color: black;
+    -webkit-transform: rotate(-60deg);
+    transform: rotate(-60deg);
+  }
+  .gyo:before {
+    left:0;
+  }
+  .gyo:after {
+    right: 0;
+  }
+
+.gyo a {
+    color: black;
+    font-style: none;
+    
+}
+
+a {
+    color: black;
+}
+
+.gyo i {
+    font-size: 19px;
+}
+
+p i {
+    font-size: 18px;
+    padding: 0px 3px;
+}
