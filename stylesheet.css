@@ -23,9 +23,8 @@
 
 p {
     font-family: 'Noto Sans JP', sans-serif;
-    font-size: 18px;
+    font-size: 14px;
     letter-spacing: 0.3px;
-    line-height: 35px;
 }
 
 main {
@@ -72,6 +71,6 @@ a {
 }
 
 p i {
-    font-size: 18px;
+    font-size: 13px;
     padding: 0px 3px;
 }
